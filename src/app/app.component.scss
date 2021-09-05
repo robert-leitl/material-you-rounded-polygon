@@ -1,0 +1,17 @@
+.icon-button {
+  width: 22rem;
+  height: 22rem;
+  border: none;
+  background-color: aquamarine;
+}
+
+.img-container {
+  width: 22rem;
+  height: 22rem;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
