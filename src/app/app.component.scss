@@ -1,13 +1,58 @@
+:host {
+  --cell-size: 25vw;
+
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, var(--cell-size));
+  grid-template-rows: repeat(2, var(--cell-size));
+  justify-content: center;
+  align-content: center;
+  grid-gap: 2vw;
+  padding: 2rem;
+}
+
 .icon-button {
-  width: 22rem;
-  height: 22rem;
+  width: 100%;
+  height: 100%;
   border: none;
-  background-color: aquamarine;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--theme-dark-blue);
+
+  span.material-icons {
+    font-size: 6vw;
+    color: rgba(0, 0, 0, 0.8);
+
+    &.light {
+      color: rgba(255, 255, 255, 0.9);
+    }
+  }
+}
+
+.dark-blue {
+  background-color: var(--theme-dark-blue);
+}
+
+.light-brown {
+  background-color: var(--theme-light-brown);
+}
+
+.dark-brown {
+  background-color: var(--theme-dark-brown);
+}
+
+.green {
+  background-color: var(--theme-green);
+}
+
+.light-blue {
+  background-color: var(--theme-light-blue);
 }
 
 .img-container {
-  width: 22rem;
-  height: 22rem;
+  width: 100%;
+  height: 100%;
 
   img {
     width: 100%;

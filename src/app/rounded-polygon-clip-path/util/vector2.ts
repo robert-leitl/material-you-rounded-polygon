@@ -1,3 +1,6 @@
+/**
+ * A minimal 2d vector class (may be easily replaced by other vector implementations).
+ */
 export class Vector2 {
     public x: number;
     public y: number;
