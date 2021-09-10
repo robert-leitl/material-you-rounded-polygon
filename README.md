@@ -1,5 +1,7 @@
 # Material You Rounded Polygon Directive
 
+![Rounded Polygon Showcase Screenshot](https://github.com/robert-leitl/material-you-rounded-polygon/blob/main/screenshot.png?raw=true)
+
 This repository contains an angular 12 application which implements a simple 
 directive that draws a rounded svg polygon which gets applied as a clip-path to the host element.
 The directive can be used to the rounded polygon shapes as they are used by the material you theme ([Material You Announcement](https://material.io/blog/announcing-material-you)).
