@@ -211,8 +211,9 @@ export class RoundedPolygon {
         const s = Vector2.subtract(A.vertex, B.vertex).length();
         const alpha = A.angle / 2;
         const beta = B.angle / 2;
-        const c = s / (Math.cos(alpha) + Math.cos(beta));
-        return Math.sin(alpha) * c;
+        const gamma = Math.PI - alpha - beta;
+        const r = (s * Math.sin(alpha) * Math.sin(beta)) / Math.sin(gamma);
+        return r;
     }
 
     /**

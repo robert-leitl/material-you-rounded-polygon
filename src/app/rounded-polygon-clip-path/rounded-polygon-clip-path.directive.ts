@@ -43,7 +43,7 @@ export interface RoundedPolygonConfig {
 export const DEFAULT_ROUNDED_POLYGON_CONFIG: RoundedPolygonConfig = {
     cornerCount: 4,
     outerRadius: 1,
-    innerRadiusRatio: 0.5,
+    innerRadiusRatio: 0.4,
     cornerRadius: 1,
     tilt: 0
 };
