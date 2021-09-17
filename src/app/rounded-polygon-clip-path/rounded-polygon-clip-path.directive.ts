@@ -111,8 +111,6 @@ export class RoundedPolygonClipPathDirective {
 
         // apply the clip path to the host element
         this.renderer.setStyle(this.hostElementRef.nativeElement, 'clip-path', `url(#${id})`);
-        // make the background stretch to the parent elements size
-        this.renderer.setStyle(this.hostElementRef.nativeElement, 'background-size', '100% 100%');
     }
 
     private createShapePath(): string {

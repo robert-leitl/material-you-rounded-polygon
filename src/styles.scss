@@ -6,17 +6,17 @@
 }
 
 :root {
-  --theme-dark-blue: #393F59;
-  --theme-light-blue: #C5D3D9;
-  --theme-green: #BACA36;
-  --theme-light-brown: #dbd0b1;
-  --theme-dark-brown: #8C7561;
+  --theme-color-1: #393F59;
+  --theme-color-2: #C5D3D9;
+  --theme-color-3: #BACA36;
+  --theme-color-4: #dbd0b1;
+  --theme-color-5: #8C7561;
 }
 
 html, body {
   width: 100%;
   height: 100%;
-  background: #342f2c;
+  //background: #342f2c;
 }
 
 @font-face {

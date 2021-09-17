@@ -18,11 +18,11 @@
   border: none;
   align-items: center;
   justify-content: center;
-  background-color: var(--theme-dark-blue);
+  background-color: var(--theme-color-1);
 
   span.material-icons {
     font-size: 6vw;
-    color: rgba(0, 0, 0, 0.8);
+    color: rgba(0, 0, 0, 0.7);
 
     &.light {
       color: rgba(255, 255, 255, 0.9);
@@ -30,24 +30,24 @@
   }
 }
 
-.dark-blue {
-  background-color: var(--theme-dark-blue);
+.c-1 {
+  background-color: var(--theme-color-1);
 }
 
-.light-brown {
-  background-color: var(--theme-light-brown);
+.c-4 {
+  background-color: var(--theme-color-4);
 }
 
-.dark-brown {
-  background-color: var(--theme-dark-brown);
+.c-5 {
+  background-color: var(--theme-color-5);
 }
 
-.green {
-  background-color: var(--theme-green);
+.c-3 {
+  background-color: var(--theme-color-3);
 }
 
-.light-blue {
-  background-color: var(--theme-light-blue);
+.c-2 {
+  background-color: var(--theme-color-2);
 }
 
 .img-container {
