@@ -1,17 +1,17 @@
 <div class='column'>
     <button class='icon-button c-5'
-            appRoundedPolygonClipPath>
+            [appRoundedPolygonClipPath]="{ outerRadius: 0.98 }">
         <span class="material-icons light">bluetooth</span>
     </button>
-    <div class="img-container"
+    <div class="img-container dark-overlay"
          [appRoundedPolygonClipPath]="{ cornerCount: 3, innerRadiusRatio: 0.47, cornerRadius: .6 }">
         <img src="https://picsum.photos/id/1081/500/500">
     </div>
 </div>
 
 <div class='column'>
-    <div class="img-container"
-         [appRoundedPolygonClipPath]="{ cornerCount:5 }">
+    <div class="img-container dark-overlay"
+         [appRoundedPolygonClipPath]="{ cornerCount: 5, outerRadius: 0.98  }">
         <img src="https://picsum.photos/id/309/500/500">
     </div>
     <button class='icon-button c-4'
@@ -37,15 +37,19 @@
 
 <div class='column'>
     <button class='icon-button c-4'
-            [appRoundedPolygonClipPath]="{ cornerCount: 4, innerRadiusRatio: .5, cornerRadius: 0.9, outerRadius: 0.97 }">
+            [appRoundedPolygonClipPath]="{ cornerCount: 4, innerRadiusRatio: .5, cornerRadius: 0.9, outerRadius: 0.95 }">
+
     </button>
     <button class='icon-button c-2'
             [appRoundedPolygonClipPath]="{ cornerCount: 3, innerRadiusRatio: 1, cornerRadius: 0.5, outerRadius: 0.97 }">
+
     </button>
     <button class='icon-button c-5'
             [appRoundedPolygonClipPath]="{ cornerCount: 3, innerRadiusRatio: .5, cornerRadius: 0.6, outerRadius: 0.97 }">
+
     </button>
     <button class='icon-button c-3'
-            [appRoundedPolygonClipPath]="{ cornerCount: 5, innerRadiusRatio: .6, cornerRadius: 0.7, outerRadius: 0.97 }">
+            [appRoundedPolygonClipPath]="{ cornerCount: 5, innerRadiusRatio: .6, cornerRadius: 0.7, outerRadius: 0.99 }">
+
     </button>
 </div>
